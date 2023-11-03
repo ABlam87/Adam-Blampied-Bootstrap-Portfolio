@@ -40,9 +40,9 @@
 <!--Hero Section-->
 
 <section class="container-fluid row" id="jumbotron">
-    <img src="./assets/images/headshot 2.jpg" class="col-md-4 col-lg-4">
+    <img src="./assets/images/headshot 2.jpg" class="col-md-4 col-lg-4 jumboimg">
     <div class="jumbotron jumbotron-fluid col-md-8 col-lg-8">
-        <div class="container">
+        <div class="container jumboCopy">
         <h1 class="display-4">Adam Blampied // Web Developer</h1>
         <p class="lead">Just don't fall in love with him.</p>
         </div>
@@ -52,36 +52,40 @@
 <!--Work Section-->
 
 <section class="container-fluid row" id="workSection">
-    <h1 class="col-md-4">Work</h1>
-    <div class="container col-md-8">
-        <div class="card" id="horiseon">
+    <div  class="col-md-2 workHead">
+        <h1>Work</h1>
+    </div>
+    <div class="col-md-1 bordergap">
+    </div>
+    <div class="container row col-md-9 workBody">
+        <div class="card col-md-12" id="horiseon">
             <img src="./assets/images/Horiseon.PNG" class="card-img-top" alt="A SEO Website">
             <div class="card-body">
-              <h3 class="card-text">Horiseon</h3>
+              <h4 class="card-text">Horiseon - Code Refactor</h4>
             </div>
           </div>
-        <div class="card" id="cheatsheet">
+        <div class="card col-md-6" id="cheatsheet">
             <img src="./assets/images/CSS Cheatsheet.PNG" class="card-img-top" alt="A Cheatsheet of CSS Snippets">
             <div class="card-body">
-              <h3 class="card-text">CSS Cheatsheet</h3>
+              <h4 class="card-text">CSS Cheatsheet - HTML CSS</h4>
             </div>
           </div>
-        <div class="card" id="garfield">
+        <div class="card col-md-6" id="garfield">
             <img src="./assets/images/garfield.jfif" class="card-img-top" alt="Definitely Not A Picture Of Garfield">
             <div class="card-body">
-              <h3 class="card-text">Legally Distincy Lasagna Cat</h3>
+              <h4 class="card-text">Legally Distinct Lasagna Cat</h4>
             </div>
         </div>
-        <div class="card" id="address">
+        <div class="card col-md-6" id="address">
             <img src="./assets/images/address.jpg" class="card-img-top" alt="A Front Door">
             <div class="card-body">
-              <h3 class="card-text">The Home Address Of Whomsoever Is Grading This Challange.</h3>
+              <h4 class="card-text">The Home Address Of Whomever Is Grading This Challenge.</h4>
             </div>
           </div>
-        <div class="card" id="dont">
+        <div class="card col-md-6" id="dont">
             <img src="./assets/images/red.jpg" class="card-img-top" alt="An Unspeakable Horror">
             <div class="card-body">
-              <h3 class="card-text">Don't Click This One.</h3>
+              <h4 class="card-text">Don't Click This One.</h4>
             </div>
         </div>
     </div>
@@ -89,15 +93,32 @@
 
 <!--Skills Section-->
 
-<section class="container-fluid row" id="skillSection">
-    <div class="col-lg-2 col-md-4">
+<section class="container-fluid row">
+    <div class="col-lg-2 col-md-4" id="skillSection">
         <h1>Skills</h1>
     </div>
     <div class="col-lg-4 col-md-8">
-        <p>Skills Copy</p>
+        <div class="card" style="width: 8rem;">
+            <img src="./assets/images/html logo.webp" class="card-img-top" alt="HTML5">
+            <div class="card-body">
+              <p class="card-text">Fluent in HTML5</p>
+            </div>
+          </div>
+          <div class="card" style="width: 8rem;">
+            <img src="./assets/images/css logo.webp" class="card-img-top" alt="CSS">
+            <div class="card-body">
+              <p class="card-text">Proficient with CSS</p>
+            </div>
+          </div>
+          <div class="card" style="width: 8rem;">
+            <img src="./assets/images/Bootstrap_logo.svg.png" class="card-img-top" alt="Bootstrap">
+            <div class="card-body">
+              <p class="card-text">Knowledgeable with Bootstrap</p>
+            </div>
+          </div>
     </div>
     <div class="col-lg-2 col-md-4" id="aboutMe">
-        <h2>About Me</h2>
+        <h1>About Me</h1>
     </div>
     <div class="col-lg-4 col-md-8">
         <p>Hi there! I'm Adam, don't you look nice today. I'm fairly new to coding, recieving my ready-to-work qualification in 2024
@@ -114,7 +135,7 @@
 
 <footer class="container-fluid row" id="contactMe">
     <div class="col-md-3">
-        <h2>Contact Me</h2>
+        <h1>Contact Me</h1>
     </div>
     <div class="col-md-3">
         <p>&#9993;adamblampied@gmail.com</p>
