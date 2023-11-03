@@ -70,9 +70,46 @@ h1 {
     margin-top: 5px;
     padding-top: 10px;
 }
-/*Skills Section*/
 
+/* Page Divider */
 
+#divider {
+    margin-top: 20px;
+    border-bottom: 4px solid var(--darkgreen);
+}
+
+/*Skills/About Me Section*/
+
+#skillHead, .skillCard, #aboutMeHead, #aboutMeCopy {
+    margin-top: 20px;
+}
+#skillCopy {
+    display: flex;
+    justify-content: center;
+}
+.skillCard {
+    background-color: var(--green);
+    border: none !important;
+}
+.skillCard2 {
+    margin-top: 27px;
+}
+#aboutMeHead {
+    border-left: solid 3px var(--darkgreen);
+}
 
 /*Contact Me Footer*/
 
+/* Media Queries */
+
+@media screen and (max-width:768px) {
+    .bordergap {
+        border: hidden;
+    }
+    .card {
+        margin-left: 15px;
+    }
+    #aboutMeHead {
+        border: hidden
+    }
+}
