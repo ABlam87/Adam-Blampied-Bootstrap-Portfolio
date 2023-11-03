@@ -22,13 +22,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item active ms-auto me-3">
-          <a class="nav-link" href="#">Work</a>
+          <a class="nav-link" href="#workSection">Work</a>
         </li>
         <li class="nav-item ms-auto me-3">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#skillSection">Skills</a>
         </li>
         <li class="nav-item ms-auto me-3">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#aboutMe">About Me</a>
+          </li>
+        <li class="nav-item ms-auto me-3">
+            <a class="nav-link" href="#contactMe">Contact</a>
         </li>
       </ul>
     </div>
@@ -36,8 +39,8 @@
 
 <!--Hero Section-->
 
-<section class="container-fluid row jumbotron">
-    <img src="./assets/images/headshot.jpg" class="col-md-4 col-lg-4">
+<section class="container-fluid row" id="jumbotron">
+    <img src="./assets/images/headshot 2.jpg" class="col-md-4 col-lg-4">
     <div class="jumbotron jumbotron-fluid col-md-8 col-lg-8">
         <div class="container">
         <h1 class="display-4">Adam Blampied // Web Developer</h1>
@@ -48,34 +51,34 @@
 
 <!--Work Section-->
 
-<section class="container-fluid row workSection">
+<section class="container-fluid row" id="workSection">
     <h1 class="col-md-4">Work</h1>
     <div class="container col-md-8">
-        <div class="card">
+        <div class="card" id="horiseon">
             <img src="./assets/images/Horiseon.PNG" class="card-img-top" alt="A SEO Website">
             <div class="card-body">
               <h3 class="card-text">Horiseon</h3>
             </div>
           </div>
-        <div class="card">
+        <div class="card" id="cheatsheet">
             <img src="./assets/images/CSS Cheatsheet.PNG" class="card-img-top" alt="A Cheatsheet of CSS Snippets">
             <div class="card-body">
               <h3 class="card-text">CSS Cheatsheet</h3>
             </div>
           </div>
-        <div class="card">
+        <div class="card" id="garfield">
             <img src="./assets/images/garfield.jfif" class="card-img-top" alt="Definitely Not A Picture Of Garfield">
             <div class="card-body">
               <h3 class="card-text">Legally Distincy Lasagna Cat</h3>
             </div>
         </div>
-        <div class="card">
+        <div class="card" id="address">
             <img src="./assets/images/address.jpg" class="card-img-top" alt="A Front Door">
             <div class="card-body">
               <h3 class="card-text">The Home Address Of Whomsoever Is Grading This Challange.</h3>
             </div>
           </div>
-        <div class="card">
+        <div class="card" id="dont">
             <img src="./assets/images/red.jpg" class="card-img-top" alt="An Unspeakable Horror">
             <div class="card-body">
               <h3 class="card-text">Don't Click This One.</h3>
@@ -86,9 +89,43 @@
 
 <!--Skills Section-->
 
+<section class="container-fluid row" id="skillSection">
+    <div class="col-lg-2 col-md-4">
+        <h1>Skills</h1>
+    </div>
+    <div class="col-lg-4 col-md-8">
+        <p>Skills Copy</p>
+    </div>
+    <div class="col-lg-2 col-md-4" id="aboutMe">
+        <h2>About Me</h2>
+    </div>
+    <div class="col-lg-4 col-md-8">
+        <p>Hi there! I'm Adam, don't you look nice today. I'm fairly new to coding, recieving my ready-to-work qualification in 2024
+            Honestly, Front-end Web Development is something of a big career change for me. For the better part of the last decade, 
+            I've worked as a host on YouTube, fronting a variety of hobby and geek culture channels about wrestling, board games, movies, you name it.
+            However, YouTube gets you down after a while, and so I've decided to try my hand at making internet things behind-the-scenes rather than in front of a camera!</p>
+          <p>Below, you'll find all the applications that I've made thus far in my coding journey, as well as some 'comedy' placeholder images while I make enough stuff to fill the space. 
+            You'll have to forgive the fact that I think I'm funny.</p>
+    </div>
+</div>
+</section>
 
 <!--Contact Me-->
 
+<footer class="container-fluid row" id="contactMe">
+    <div class="col-md-3">
+        <h2>Contact Me</h2>
+    </div>
+    <div class="col-md-3">
+        <p>&#9993;adamblampied@gmail.com</p>
+    </div>
+    <div class="col-md-3">
+        <p>&phone;07966039290</p>
+    </div>
+    <div class="col-md-3">
+        <p>&commat;adamtheblampied</p>
+    </div>
+</footer>
 
 <!--Bootstrap Javacript-->
 
