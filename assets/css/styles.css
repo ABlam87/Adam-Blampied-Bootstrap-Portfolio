@@ -105,6 +105,17 @@ h1 {
 
 /*Contact Me Footer*/
 
+#contactMe {
+    min-height: 100px;
+    color: var(--green);
+    background-color: var(--darkgreen);
+    text-align: center;
+}
+
+.contactHead, .contactCopy {
+    display: flex;
+    align-items: center;
+}
 
 
 /* Media Queries */
