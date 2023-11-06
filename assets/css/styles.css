@@ -25,6 +25,21 @@ h1 {
 .nav-link {
     color: var(--green) !important;
 }
+.nav-link{
+    box-shadow: inset 0 0 0 0 var(--jasmine);
+    color: var(--jasmine);
+      padding: 0 .25rem;
+      margin: 0 -.25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .nav-link:hover {
+    color: var(--darkgreen) !important;
+    box-shadow: inset 200px 0 0 0 var(--jasmine);;
+  }
+  .navbar button {
+    border: 1px solid var(--green);
+  }
+  
 
 /*Jumbotron Section*/
 
@@ -74,7 +89,17 @@ h1 {
 .card {
     margin-top: 5px;
     padding-top: 10px;
+    cursor: pointer;
+    overflow: hidden;
 }
+.card a{
+    text-decoration: none;
+    color: #003826;
+}
+.card:hover {
+    box-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+
 
 /* Page Divider */
 
@@ -115,6 +140,7 @@ h1 {
 .contactHead, .contactCopy {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 
